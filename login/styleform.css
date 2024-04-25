@@ -45,6 +45,7 @@ flex-wrap: wrap;
 width: 50%;
 padding-bottom: 15px;
 }
+
 .input-box:nth-child(2n)
 {
     justify-content: end;

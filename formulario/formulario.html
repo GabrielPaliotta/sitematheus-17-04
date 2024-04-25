@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div>
+        <form action="#">
+            <center>
+                <select>
+                    <option value="Mensal">Mensal</option>
+                    <option value="unica">Única</option>
+                </select>
+                <br>
+                <br>
+                <div class="option">
+                    <div class="options">
+                        <button name="button" type="button" class="button active" data-price-amount="55.0">
+                            R$ 55,00
+                        </button> <button name="button" type="button" class="button" data-price-amount="75.0">
+                            R$ 75,00
+                        </button> <button name="button" type="button" class="button" data-price-amount="90.0">
+                            R$ 90,00
+                        </button> <button name="button" type="button" class="button" data-price-amount="110.0">
+                            R$ 110,00
+                        </button>
+                        <button name="button" type="button" class="button other" data-price-id="other">Outro
+                            valor</button>
+                    </div>
+            </center>
+            <div class="first">
+                <h2>Informe seus dados de contato</h2>
+                <section>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" size="50" required>
+                </section>
+                <br>
+                <section>
+                    <label for="Email">Email:</label>
+                    <input type="text" id="Email" size="50" required>
+                </section>
+                <br>
+                <section>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" size="50" required placeholder="(__)_____-____">
+                </section>
+                <br>
+                <section>
+                    <label for="data">Data de nascimento</label>
+                    <input type="text" id="data" size="50" required placeholder="DD/MM/AAAA">
+                </section>
+                <br>
+
+                <label for="sexo">Sexo</label>
+                <select name="" id="">
+                    <option value="">Selecione</option>
+                    <option value="">Masculino</option>
+                    <option value="">Feminino</option>
+                    <option value="">Outro</option>
+                </select>
+            </div>
+            <div class="second">
+            <h2>Escolha a forma de doação</h2>
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" size="50" required placeholder="___-___-___-__">
+            <br>
+            <label for="forma">Forma de doação</label>
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="">Cartão de crédito</option>
+                <option value="">Cartão de débito</option>
+            </select>
+            <br>
+            <label for="bandeira">Bandeira do Cartão</label>
+<select name="" id="">
+    <option value="">Selecione</option>
+    <option value="">Elo</option>
+    <option value="">Mastecard</option>
+    <option value="">American Express</option>
+    <option value="">Diners club </option>
+    <option value="">Hioer card</option>
+    <option value="">Visa</option>
+</select>
+<br>
+<label for="numero">Número do cartão</label>
+<input type="text" id="numero">
+<input type="text" id="numero" placeholder="cvv" size="10">
+<br>
+<label for="nome cartao">Nome descrito no cartão</label>
+<input type="text" id="mome cartao">
+<br>
+<label for="validade">Validade do cartão</label>
+<input type="text" id="validade" placeholder="MM/AA">
+</div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

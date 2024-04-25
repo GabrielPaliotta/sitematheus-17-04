@@ -1,0 +1,28 @@
+
+ body {
+    background-image: url(refugiados.jpg);
+    background-position-y: -400px;
+    background-position-x: -200px;
+    background-repeat: no-repeat
+    ;
+    overflow: hidden;
+ }
+ header{
+   margin-top:500px;
+ }
+
+ h1 {
+   text-align: center;
+    color: white;
+    font-size: 50px;
+   
+ }
+ .video
+ {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 500px;
+ }
+ 

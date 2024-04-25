@@ -1,0 +1,22 @@
+.first
+{
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(80, 120, 156);
+    padding: 10px;
+}
+label
+{
+    line-height: 10px;
+}
+h2
+{
+    color: white;
+}
+.second
+{
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(80, 120, 156);
+    padding: 10px;
+}
